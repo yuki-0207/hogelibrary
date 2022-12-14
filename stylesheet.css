@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+    background-color: antiquewhite;
+  }
+  
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(34,49,52,0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .header-left {
+    float: left;
+    color:aliceblue;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: 0;
+  }
+  
+  .header-right a {
+    line-height: 70px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255,255,255,0.3);
+  }
+
+  .message h2{
+    color:blue;
+    margin-top:70px;
+  }
+  .news h2{
+    color:blue;
+  }
+  .first-use h2,span{
+    color:blue;
+  }
+  .first-use table{
+    margin-left:300px;
+    width: 30%;
+    height:150px;
+    background-color:azure
+  }
+  .content h1{
+    margin-top: 70px;
+    color:blue;
+  }
+  .content span{
+    color: red;
+  }
+  .content table{
+    background-color: cornsilk;
+  }
+  .reading-help h2{
+    color:blue;
+  }
+  .reading-help a{
+    color:blue;
+    text-decoration: underline;
+  }
+  .search-help h2{
+    color:blue;
+  }
+  .search-help a{
+    color:blue;
+    text-decoration: underline;
+  }
+  .language table{
+    margin-top:70px;
+    background-color: lightpink;
+  }
+  .math table{
+    background-color: lightblue;
+  }
+  caption{
+    font-weight: bold;
+  }
+  .contact p{
+    text-align: center;
+  }
+  .update p{
+    text-align: right;
+  }
